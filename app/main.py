@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "We Love Datascientest, and we did it. We build a CI/CD Pipeline !! - test 2"}
+    return {"Hello": "We Love Datascientest, and we did it. We build a CI/CD Pipeline !! - test 3 (changed to application/json in the webhook config)"}
